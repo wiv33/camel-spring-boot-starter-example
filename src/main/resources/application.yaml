@@ -1,0 +1,11 @@
+camel:
+  rest:
+    inline-routes: true
+  component:
+    servlet:
+      mapping:
+        context-path: /api/*
+
+  routes:
+    hello:
+      enabled: true
